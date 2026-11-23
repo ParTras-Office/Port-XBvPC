@@ -1,0 +1,73 @@
+{
+  "updated_utc": "2026-11-23",
+  "latest_certified": "P9-S1",
+  "evidence_type": "user-provided local operator logs; not independent GitHub CI",
+  "milestones": [
+    {
+      "id": "P0",
+      "status": "verified_local",
+      "checks": "78/78",
+      "summary": "PE/IAT guest calls"
+    },
+    {
+      "id": "P1-R1",
+      "status": "verified_local",
+      "checks": "80/80",
+      "summary": "four DLL chain"
+    },
+    {
+      "id": "P2",
+      "status": "verified_local",
+      "checks": "58/58",
+      "summary": "nested calls and ABI"
+    },
+    {
+      "id": "P3",
+      "status": "verified_local",
+      "checks": "42/42",
+      "summary": "page protections and W^X"
+    },
+    {
+      "id": "P4-R2",
+      "status": "verified_local",
+      "checks": "42/42",
+      "summary": "RW data and header rebase"
+    },
+    {
+      "id": "P5",
+      "status": "verified_local",
+      "checks": "62/62",
+      "summary": "four DLL data stores and nested calls"
+    },
+    {
+      "id": "P6-R4",
+      "status": "verified_local",
+      "checks": "102/102",
+      "summary": "two-provider PE import binding"
+    },
+    {
+      "id": "P7-R3",
+      "status": "verified_local",
+      "checks": "74/74",
+      "summary": "guest CPU memory lifecycle"
+    },
+    {
+      "id": "P8-S1-R3",
+      "status": "verified_local",
+      "checks": "16/16",
+      "summary": "externally compiled PE32+ x64 guest code"
+    },
+    {
+      "id": "P9-S1",
+      "status": "verified_local",
+      "checks": "25/25",
+      "summary": "external named/ordinal PE imports"
+    },
+    {
+      "id": "P10-S1-R1",
+      "status": "pending",
+      "checks": null,
+      "summary": "DIR64 rebasing at two guest bases; operator prepared; result not yet observed"
+    }
+  ]
+}
